@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3-products-indexes-and-sequences
+      author: chatgpt
+      changes:
+        - sqlFile:
+            path: db/changelog/products-and-indexes.sql
+            splitStatements: true
+            stripComments: true
