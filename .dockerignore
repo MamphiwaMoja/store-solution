@@ -1,0 +1,13 @@
+.gradle
+build
+.idea
+.git
+.github
+utils/node_modules
+utils/package-lock.json
+target
+*.iml
+*.log
+*.tmp
+Dockerfile
+compose.yaml
